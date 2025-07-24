@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body id="whole">
+
+
+
+
+  <div id="calc">
+      <h1>calculator</h1>
+      
+      <input id="box1">
+      <input id="box2">
+     
+
+      <div id="buttons12">
+        <button onclick="add()" id="addition">add</button>
+        <button onclick="sub()" id="subtraction">subtract</button>
+     </div>
+      <div id="buttons34">
+         <button onclick="divide()"id="division">divide</button>
+         <button onclick="multiply()"id="multiplication">multiply</button>
+      </div>
+
+    <p id="res">answer</p>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+
+    function add() {
+      let box1value = Number(document.getElementById("box1").value);
+      let box2value = Number(document.getElementById("box2").value);
+      document.getElementById("res").innerHTML = box1value + box2value
+
+
+    }
+    function divide() {
+      let box1value = Number(document.getElementById("box1").value);
+      let box2value = Number(document.getElementById("box2").value);
+      document.getElementById("res").innerHTML = box1value / box2value
+    }
+
+    function multiply() {
+      let box1value = Number(document.getElementById("box1").value);
+      let box2value = Number(document.getElementById("box2").value);
+      document.getElementById("res").innerHTML = box1value * box2value
+    }
+    function sub() {
+      let box1value = Number(document.getElementById("box1").value);
+      let box2value = Number(document.getElementById("box2").value);
+      document.getElementById("res").innerHTML = box1value - box2value
+    }
+
+
+
+
+  </script>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+
+*{
+margin:0px;
+padding:0px;
+}
+#whole{
+
+        background-color: black;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height:80vh;
+}
+
+
+#calc{
+    background-color:orange;
+    margin-top: 200px;
+    align-items: center;
+    padding: 50px;
+    width: 400px;
+    height: 400px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+#box1{
+    background-color:white;
+    height: 30px;
+    width: 270px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 5px;
+    text-indent: 10px;
+
+    margin-top: 20px;
+    
+}
+#box2{
+    background-color:white;
+    height: 30px;
+    width: 270px;
+    border-radius: 10px;
+      border-color: black;
+    border-width: 5px;
+    text-indent: 10px;
+}
+#buttons12{
+
+    display:flex;
+    justify-content: space-between;
+width: 150px;
+}
+#buttons34{
+
+display:flex;
+justify-content: space-between;
+width: 150px;
+}
+#addition{
+   width:100px; 
+   margin-top: 30px;
+}
+
+#subtraction{
+ width:100px; 
+ margin-top: 30px;
+ 
+}
+#multiplication{
+    width:100px; 
+     
+}
+#division{
+    width:100px; 
+  
+}
+#res{
+    background-color: rgb(91, 4, 171);
+    color: white;
+    border-radius: 15px;
+    width: 80px;
+
+    text-indent: 15px;
+}
+
+
+
+
+
+
+
+
